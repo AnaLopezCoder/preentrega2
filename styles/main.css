@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+}
+
+.h1-quienes-somos {
+  color: #8b1c98;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  text-align: center;
+}
+
+.h2-quienes-somos {
+  color: #8b1c98;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  text-align: center;
+  line-height: 150%;
+  text-align: justify;
+  padding: 20px;
+  margin: 20px;
+}
+
+.container-quienes-somos {
+  width: 75vw;
+  max-width: 500px;
+  min-width: 320px;
+  margin: auto;
+}
+.container-quienes-somos img {
+  width: 100%;
+}
+
+.h1-hecate {
+  color: #8b1c98;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  text-align: center;
+}
+
+.logo-navbar {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-navbar {
+  width: 40px;
+  height: 40px;
+}
+
+.navegador-revendedor {
+  background-color: rgba(249, 6, 6, 0.3960784314);
+  text-align: center;
+  color: #6f6170;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  -webkit-margin-start: 10px;
+          margin-inline-start: 10px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.donde-estamos {
+  color: #8b1c98;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  text-align: center;
+  padding: 40px;
+}
+
+.datos {
+  color: #8b1c98;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  text-align: center;
+  padding: 40px;
+}
+
+/*footer*/
+.h2-seguinos {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  text-align: center;
+}
+
+.container {
+  width: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

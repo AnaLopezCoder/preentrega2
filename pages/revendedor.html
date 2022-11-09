@@ -7,15 +7,12 @@
     <title>Revendedores</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="shortcut icon" href="./../imagenes/encabezado 2.png" type="image/x-icon">
-    <link rel="stylesheet" href="./../styles/style.css">
+    <link rel="stylesheet" href="./../styles/main.css">
 </head>
 
 <body class="imagen-principal-fondo">
 
 <header>
-</header>
-
-<!-- Navbar -->
 <nav class="navbar navbar-expand-lg bg-primary navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="./../index.html"><img class="logo-navbar" src="./../imagenes/icono-hecate-navbar-02.png" alt=""></a>
@@ -41,18 +38,38 @@
       </div>
     </div>
   </nav>
-
+</header>  
 
 <div class="contenedor-formulario">
-    
+  <h1 class="h1-formulario">¿QUERÉS REVENDER NUESTROS PRODUCTOS?</h1>
+  <h2 class="h2-formulario">¡DEJANOS TU CONSULTA!</h2>
+  <form>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">NOMBRE Y APELLIDO</label>
+      <input type="text" class="form-control" id="nombre y apellido" placeholder="">
+    </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">EMAIL</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">TELÉFONO</label>
+    <input type="tel" class="form-control" id="teléfono" placeholder="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">MENSAJE</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <br>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button type="submit" class="btn btn-secondary">ENVIAR</button>
+    </div>
+  </div>
+  </form>
+</div>
+
+<!--
+<div class="contenedor-formulario">
 <div>
-    <h1>¿Querés revender nuestros productos?</h1>
-<br>
-
-<h3>Dejanos tus datos y te contactaremos a la brevedad.</h3>
-
-<br>
-
 <form>
 <div>
     <label for="nombre y apellido">
@@ -60,41 +77,33 @@
         <input type="text" id="nombre y apellido" >
     </label>
 </div>
-
-<br>
-
 <div><label for="email">
     E-mail
     <input type="email" id="email">
 </label>
 </div>
-
-<br>
-
 <div>
     <label for="teléfono">
     teléfono
     <input type="tel"  id="teléfono">
 </label>
 </div>
-
-<br>
-
 <div><label for="mensaje">MENSAJE<textarea name="" id="mensaje" cols="15" rows="5"></textarea>
 </label>
 <button type="submit">Enviar</button>
 </div>
 </div>
-
 </form>
-</main>
+-->
 
+
+</main>
 
 <br>
 <!-- Footer -->
 <footer class="bg-dark text-center text-white">
   <br>
-  <h3 class="h3-seguinos">¡SEGUINOS!</h3>
+  <h3 class="h2-seguinos">¡SEGUINOS!</h3>
   <!-- Grid container -->
   <div class="container-d">
     <!-- Section: Social media -->
@@ -102,11 +111,9 @@
       <!-- Instagram -->
       <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/hecate.natural/" role="button"
         ><img src="./../imagenes/instagram a mano.png" width="30" height="30" alt="logo-instagram"></a>
-
       <!-- Facebook -->
       <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/hecatenaturalrosario" role="button"
         ><img src="./../imagenes/facebook a mano.png" width="30" height="30" alt="logo-facebook"></a>
-
     </section>
 </footer>
 

@@ -1,0 +1,31 @@
+.h1-quienes-somos{
+    color: $maincolor;
+    font-family: $fontMontserrat;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;
+}
+
+.h2-quienes-somos{
+    color: $maincolor;
+    font-family: $fontMontserrat;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;
+    line-height: 150%;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container-quienes-somos{
+    width: 75vw;
+    max-width: 500px;
+    min-width: 320px;
+    margin: auto;
+
+    img{
+        width: 100%;
+
+}
+}
