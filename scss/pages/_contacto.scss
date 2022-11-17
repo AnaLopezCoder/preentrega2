@@ -1,10 +1,25 @@
 /*FORMULARIO DE CONTACTO*/
 .contenedor-formulario{
     height: 650px;
-    background-color: #e78593;
+    background-color: $secondcolor;
     opacity: 80%;
     padding: 50px;
     padding-right: 80px;
     margin: 50px;
 
+}
+.h1-formulario{
+    color: #1b1818;
+    font-family: $fontMontserrat;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;  
+}
+
+.h2-formulario{
+    color: #1b1818;
+    font-family: $fontMontserrat;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;  
 }
